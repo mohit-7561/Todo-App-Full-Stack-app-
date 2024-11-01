@@ -1,0 +1,37 @@
+/* Header.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+.header-logo h1 {
+  font-size: 1.5rem;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+  color: #ddd;
+}

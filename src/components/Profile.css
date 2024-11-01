@@ -1,0 +1,21 @@
+.user-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.user-name {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.user-email {
+  font-size: 1rem;
+  color: #666;
+}
